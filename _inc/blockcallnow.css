@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 15px;
+    color: black;
+    letter-spacing: 0.3px;
+    border: 0px solid #eee0;
+    text-align: center;
+}
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 13px 20px;
+    text-align: left;
+}
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cstm-z {
+    max-height: 668px;
+    overflow: auto;
+}
+
+.hundred {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ff6a21;
+    text-align: center;
+}
+
+.month {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: black;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+li.cntr-btn-subs {
+    text-align: center;
+    border-bottom: #f0f8ff00;
+}
+
+a.subs-btn {
+    border: 1px solid #ff6a21;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom:6px;
+}
+
+ul.price {
+    border-radius: 14px;
+}
+
+
+div.form-z input {
+    display: flex;
+}
+.entry-content div.form-z input {
+    width: 100%;
+}
+div.form-z input{
+    box-shadow: inset 0 0 0 0px #efeded00;
+}
+.credit-info label, .credit-info {
+    color:#79787f;
+    font-weight: 700;
+}
+#card-element.form-control {
+    min-height: 55px;
+    padding: calc(1em + .2rem + 0px);
+    line-height: 1.5;
+    border: 1px solid #f0f0f0;
+    border-radius: 0px;
+}
+
+button.signupbtn {
+    border: 1px solid #ff6a21;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+    color: #ff6a21;
+    background: #ffffff;
+}
+
+.clearfix{
+    text-align:center;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+    .cstm-z {
+   margin-top:20px;
+}
+}
